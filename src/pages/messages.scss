@@ -1,0 +1,67 @@
+.messages {
+  .messagestopbar {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+    .username {
+      margin-right: auto;
+      font-size: 1.2rem;
+    }
+  }
+  .messageCategory {
+    padding: 1rem;
+  }
+  .general {
+    font-size: 0.8rem;
+    width: max-content;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    background-color: rgb(154, 215, 238);
+    color: rgb(0, 119, 255);
+    border-radius: 0.5rem;
+  }
+  .dms {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1rem;
+    .dm {
+      font-size: 0.8rem;
+      width: 100%;
+      display: flex;
+      justify-content: start;
+      gap: 0.5rem;
+      align-items: center;
+      .sender-username {
+        font-size: 0.9rem;
+      }
+      .message {
+        color: rgb(145, 145, 145);
+        span {
+          color: gray;
+        }
+      }
+      img {
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
+  .suggestions {
+    h3 {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+}
