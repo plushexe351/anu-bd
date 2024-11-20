@@ -10,7 +10,10 @@ import post2 from "../assets/post2.JPG";
 import post3 from "../assets/post3.JPG";
 import post4 from "../assets/post4.JPG";
 import post5 from "../assets/post5.JPG";
+import post8 from "../assets/post8.jpg";
+import post9 from "../assets/post9.jpg";
 import ushpfp from "../assets/ushpfp.JPG";
+import anunsfwpost from "../assets/anunsfwpost.jpg";
 
 const Posts = () => {
   const postsData = [
@@ -19,8 +22,8 @@ const Posts = () => {
       creatorName: "ush.nsfw",
       creatorLocation: "Your Walls",
       profilePic: ushpfp,
-      postImage: post1,
-      caption: "Happy Birthday ! 🖤",
+      postImage: post9,
+      caption: "Happy Birthday ! 🖤 ",
       likes: 2,
       comments: 1,
     },
@@ -29,8 +32,8 @@ const Posts = () => {
       creatorName: "ush.nsfw",
       creatorLocation: "Your Walls",
       profilePic: ushpfp,
-      postImage: post2,
-      caption: "Apple of my eye 🍎",
+      postImage: anunsfwpost,
+      caption: "Pookie core",
       likes: 2,
       comments: 1,
     },
@@ -39,8 +42,8 @@ const Posts = () => {
       creatorName: "ush.nsfw",
       creatorLocation: "Your Walls",
       profilePic: ushpfp,
-      postImage: post3,
-      caption: "Gorjus ✨",
+      postImage: post1,
+      caption: "Apple of my eye 🍎",
       likes: 2,
       comments: 1,
     },
@@ -49,8 +52,8 @@ const Posts = () => {
       creatorName: "ush.nsfw",
       creatorLocation: "Your Walls",
       profilePic: ushpfp,
-      postImage: post5,
-      caption: "4life",
+      postImage: post2,
+      caption: "Gorjus ✨",
       likes: 2,
       comments: 1,
     },
@@ -59,8 +62,38 @@ const Posts = () => {
       creatorName: "ush.nsfw",
       creatorLocation: "Your Walls",
       profilePic: ushpfp,
+      postImage: post3,
+      caption: "4life 😘",
+      likes: 2,
+      comments: 1,
+    },
+    {
+      id: 6,
+      creatorName: "ush.nsfw",
+      creatorLocation: "Your Walls",
+      profilePic: ushpfp,
+      postImage: post5,
+      caption: "Just lookin like a wow 😩",
+      likes: 2,
+      comments: 1,
+    },
+    {
+      id: 7,
+      creatorName: "ush.nsfw",
+      creatorLocation: "Your Walls",
+      profilePic: ushpfp,
       postImage: post4,
-      caption: "Just lookin like a wow",
+      caption: "Just lookin like a wow 🤩",
+      likes: 2,
+      comments: 1,
+    },
+    {
+      id: 8,
+      creatorName: "ush.nsfw",
+      creatorLocation: "Your Walls",
+      profilePic: ushpfp,
+      postImage: post8,
+      caption: "not siblings 💀💀💀",
       likes: 2,
       comments: 1,
     },

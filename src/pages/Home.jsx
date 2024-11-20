@@ -7,8 +7,6 @@ import Confetti from "react-confetti";
 const Home = () => {
   return (
     <div className="home">
-      <Confetti recycle={false} />
-
       <HomeTopBar />
 
       <Posts />

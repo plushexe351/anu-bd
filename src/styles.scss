@@ -72,10 +72,11 @@
 .explore,
 .coupons,
 .bio,
-.messages {
+.messages,
+.dashboard {
   background-color: black;
   border-radius: 1.6rem;
-  width: 800px;
+  width: 600px;
   height: calc(100vh - 2rem);
   display: flex;
   justify-content: center;
@@ -178,6 +179,8 @@
       }
       .post-img {
         width: 100%;
+        max-height: calc(600px - 3rem);
+        object-fit: cover;
       }
       .post-actions,
       .post-caption {

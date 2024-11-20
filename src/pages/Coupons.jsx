@@ -64,7 +64,7 @@ const Coupons = () => {
       <div className="body-full">
         <div className="birthdaywish">
           <CheckCircle size={40} color="lightgreen" />
-          Enjoi 🖤
+          Claim your pookie coupons 🤩
         </div>
         {couponsData.map((coupon, index) => (
           <Coupon

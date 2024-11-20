@@ -20,8 +20,11 @@ import post4 from "../assets/post4.JPG";
 import post5 from "../assets/post5.JPG";
 import post6 from "../assets/post6.jpg";
 import post7 from "../assets/post7.jpg";
+import anunsfwpost from "../assets/anunsfwpost.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Bio = () => {
+  const navigate = useNavigate();
   return (
     <div className="bio">
       <div className="body-full">
@@ -50,7 +53,12 @@ const Bio = () => {
         <div className="profile-about">
           <div className="user-name">e-girl hun 👎</div>
           <div className="profile-bio">Mood posting</div>
-          <div className="pookie-dashboard">pookie dashboard</div>
+          <div
+            className="pookie-dashboard"
+            onClick={() => navigate("/dashboard")}
+          >
+            pookie dashboard
+          </div>
         </div>
         <div className="posts">
           <p>
@@ -58,10 +66,12 @@ const Bio = () => {
             POSTS
           </p>
           <div className="profile-posts-container">
-            <img src={post7} alt="" />
-            <img src={post3} alt="" />
+            <img src={anupfp} alt="" />
             <img src={post6} alt="" />
+            <img src={post3} alt="" />
+            <img src={post7} alt="" />
             <img src={post5} alt="" />
+            <img src={anunsfwpost} alt="" />
           </div>
         </div>
       </div>

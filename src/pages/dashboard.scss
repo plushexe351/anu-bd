@@ -1,0 +1,31 @@
+.dashboard {
+  .dashboardtopbar {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .charts-container {
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .chart {
+    min-width: 300px;
+  }
+  .chart:first-child {
+    width: 100%;
+  }
+  .chart:nth-child(2) {
+    width: 49%;
+  }
+  .chart:nth-child(3) {
+    width: 46%;
+  }
+}

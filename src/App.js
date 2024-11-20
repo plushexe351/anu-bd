@@ -12,6 +12,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Coupons from "./pages/Coupons";
 import Bio from "./pages/Bio";
+import Dashboard from "./pages/Dashboard";
 
 import Navbar from "./Components/Navbar";
 import Explore from "./pages/Explore";
@@ -30,6 +31,7 @@ function App() {
           <Route path="/explore" element={<Explore />} />
           <Route path="/home" element={<Home />} />
           <Route path="/messages" element={<Messages />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
 
         <ToastContainer position="bottom-center" />
